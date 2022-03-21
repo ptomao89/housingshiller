@@ -23,16 +23,65 @@ body {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
     font-size: 16px;
 }
+/* styling for article content */
+
+.header {
+
+    width: 75%;
+   max-width: 1200px;
+    margin: 0 auto;
+   padding: 0px;
+   text-align: center;
+   font-size: 15px;
+   font-style: italic;
+   word-spacing: normal;
+
+   }
+   .paragraph {
+
+    display: block;
+    align-content: center;
+    max-width: 800px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1%;
+    
+    }
+   body {
+    background-color: ghostwhite;
+     }
+
+
+.p2 
+
+    {
+    display: block;
+    align-content: center;
+    max-width: 800px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: bold;
+    padding-bottom: 2%;
+    }
+
+
+
+
+   /* styling for filter */
 
 .container {
     max-width: 800px;
     margin: 0 auto;
     padding: 5px;
+    text-align: center;
 }
 
 img {
     display: block;
     width: 100%;
+    align-items: center;
 }
 
 select {
